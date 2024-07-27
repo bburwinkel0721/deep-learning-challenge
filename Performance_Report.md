@@ -24,16 +24,15 @@
 - Compiling, Training, and Evaluating the Model
     - How many neurons, layers, and activation functions did you select for your neural network model, and why?
         - In my most successful model, I had the following neurons, layers, and activation functions:
-            - Layer 1: 80 neurons and an activiation function of relu
-            - Layer 2: 30 neurons and an activiation function of relu
-            - Layer 3: 30 neurons and an activiation function of relu
-            - Layer 4: 30 neurons and an activiation function of relu
-            - Layer 5: 1 neurons and an activiation function of sigmoid
+            - Layer 1: 128 neurons and an activiation function of leaky relu
+            - Layer 2: 64 neurons and an activiation function of leaky relu
+            - Layer 3: 32 neurons and an activiation function of relu
+            - Layer 4: 1 neurons and an activiation function of sigmoid
              ![Logo](Resources/Compiling_Training_Structure.png)
     - Were you able to achieve the target model performance?
-        - Unfortunately, I was only able to achieve 72.6% accuracy, just short of the 75% target accuracy.
+        - Unfortunately, I was only able to achieve 72.7% accuracy, just short of the 75% target accuracy.
         ![Logo](Resources/accuracy_score.png)
     - What steps did you take in your attempts to increase model performance?
-        - I explored increasing the number of layers, the number of neurons in each each layer, and the number epochs in each of my attempts
+        - I explored changing the number of layers, the number of neurons in each each layer, batch size, activation functions, groupings of categorical variables, and the number epochs in each of my attempts.
 ## Summary:
-- Based on the accuracy score of my best model, I would not recommend my model and would say further exploration is needed. I was only able to achieve 72.6% accuracy compared to the desired 75% accuracy, so further exploration of different hyperparameters and combinations of existing hyperparameters is needed.
+- Based on the accuracy score of my best model, I would not recommend my model and would say further exploration is needed. I was only able to achieve 72.7% accuracy compared to the desired 75% accuracy, so further exploration of different hyperparameters and combinations of existing hyperparameters is needed.
