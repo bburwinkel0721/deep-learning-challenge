@@ -29,6 +29,7 @@
             - Layer 3: 32 neurons and an activiation function of relu
             - Layer 4: 1 neurons and an activiation function of sigmoid
              ![Logo](Resources/Compiling_Training_Structure.png)
+        - I chose to add a few layers and increase the amount of neurons that would improve performance. In each of my attempts, this number of layers and neurons seem to work the best. As for the activation functions, I knew that the last one needed to be sigmoid because the output needed to be between 0 and 1. As for the others, I chose them primarily through experimentation and past experience.
     - Were you able to achieve the target model performance?
         - Unfortunately, I was only able to achieve 72.7% accuracy, just short of the 75% target accuracy.
         ![Logo](Resources/accuracy_score.png)
